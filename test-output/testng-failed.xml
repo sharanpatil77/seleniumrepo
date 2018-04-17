@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTestNg">
+      <class name="com.verifylogin.page.Verifylogin">
         <methods>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
-          <include name="beforeMethod"/>
-          <include name="myTestMethod"/>
-          <include name="beforeClass"/>
+          <include name="logintest"/>
         </methods>
-      </class> <!-- SeleniumTestNg -->
+      </class> <!-- com.verifylogin.page.Verifylogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

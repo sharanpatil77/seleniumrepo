@@ -1,61 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32" started-at="2018-03-07T11:06:10Z" finished-at="2018-03-07T11:06:10Z">
+  <suite name="Default suite" duration-ms="26541" started-at="2018-03-15T05:32:28Z" finished-at="2018-03-15T05:32:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32" started-at="2018-03-07T11:06:10Z" finished-at="2018-03-07T11:06:10Z">
-      <class name="Testngnew">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Testngnew@7c16905e]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
+    <test name="Default test" duration-ms="26541" started-at="2018-03-15T05:32:28Z" finished-at="2018-03-15T05:32:55Z">
+      <class name="com.verifylogin.page.Verifylogin">
+        <test-method status="FAIL" signature="logintest()[pri:0, instance:com.verifylogin.page.Verifylogin@396a51ab]" name="logintest" duration-ms="26524" started-at="2018-03-15T11:02:28Z" finished-at="2018-03-15T11:02:55Z">
+          <exception class="java.lang.IllegalMonitorStateException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at com.verifylogin.page.Verifylogin.logintest(Verifylogin.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalMonitorStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:Testngnew@7c16905e]" name="testCase1" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testngnew@7c16905e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Testngnew@7c16905e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testngnew@7c16905e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:Testngnew@7c16905e]" name="testCase2" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Testngnew@7c16905e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Testngnew@7c16905e]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Testngnew@7c16905e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testngnew@7c16905e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testngnew@7c16905e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Testngnew@7c16905e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- Testngnew -->
+        </test-method> <!-- logintest -->
+      </class> <!-- com.verifylogin.page.Verifylogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
