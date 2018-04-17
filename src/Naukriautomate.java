@@ -21,7 +21,7 @@ public class Naukriautomate {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 	
-		System.setProperty("webdriver.chrome.driver","D:\\software\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\SoftWares\\chromedriver.exe");
 		ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");
        
@@ -68,9 +68,9 @@ public class Naukriautomate {
 		
 		driver.findElement(By.xpath("//span[contains(@class,'topIcon jobs Login')]")).click();
 	
-		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("sharan.patil71@gmail.com");
+		driver.findElement(By.xpath("//input[contains(@name,'email')]")).sendKeys("sharan.patil71@gmail.com");
 		driver.findElement(By.xpath("//input[@id='pLogin']")).sendKeys("password@22");
-		driver.findElement(By.xpath("//button[@value='Login']")).click();
+		driver.findElement(By.xpath("//button[@class='blueBtn']")).click();
 		Thread.sleep(6000);
 
         /*WebElement element = driver.findElement(By.xpath("(//span[contains(@class,'topIcon jobs')])[1]"));
@@ -97,7 +97,7 @@ public class Naukriautomate {
 		 driver.findElement(By.xpath("//a[contains(@href,'//my.naukri.com/Profile/view/')]")).click();
 		 Thread.sleep(5000); 
 		 driver.findElement(By.xpath("//a[@id='uploadLink']")).click();
-		 driver.findElement(By.xpath(".//*[@id='attachCV']")).sendKeys("D:\\resumes\\Sharan Patil 3.6 yrs  Manual and Selenium.docx");
+		 driver.findElement(By.xpath(".//*[@id='attachCV']")).sendKeys("C:\\Users\\Irshad1\\Desktop\\ReaD\\Resume\\Sharan Patil 3.8 yrs  Manual and Selenium.docx");
 		 Thread.sleep(8000); 
 		 driver.findElement(By.xpath("//button[contains(@type,'button')]")).click();
 		 
