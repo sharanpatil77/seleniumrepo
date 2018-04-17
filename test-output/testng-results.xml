@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38" started-at="2018-03-01T12:01:44Z" finished-at="2018-03-01T12:01:45Z">
+  <suite name="Default suite" duration-ms="32" started-at="2018-03-07T11:06:10Z" finished-at="2018-03-07T11:06:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38" started-at="2018-03-01T12:01:44Z" finished-at="2018-03-01T12:01:45Z">
-      <class name="SeleniumTestNg">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:SeleniumTestNg@7c16905e]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2018-03-01T17:31:44Z" finished-at="2018-03-01T17:31:44Z">
+    <test name="Default test" duration-ms="32" started-at="2018-03-07T11:06:10Z" finished-at="2018-03-07T11:06:10Z">
+      <class name="Testngnew">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Testngnew@7c16905e]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SeleniumTestNg@7c16905e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-01T17:31:44Z" finished-at="2018-03-01T17:31:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SeleniumTestNg@7c16905e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-03-01T17:31:44Z" finished-at="2018-03-01T17:31:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumTestNg@7c16905e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-03-01T17:31:44Z" finished-at="2018-03-01T17:31:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:SeleniumTestNg@7c16905e]" name="testCase1" duration-ms="7" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:Testngnew@7c16905e]" name="testCase1" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SeleniumTestNg@7c16905e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumTestNg@7c16905e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testngnew@7c16905e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:SeleniumTestNg@7c16905e]" name="testCase2" duration-ms="4" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Testngnew@7c16905e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testngnew@7c16905e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:Testngnew@7c16905e]" name="testCase2" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SeleniumTestNg@7c16905e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Testngnew@7c16905e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SeleniumTestNg@7c16905e]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Testngnew@7c16905e]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SeleniumTestNg@7c16905e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Testngnew@7c16905e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testngnew@7c16905e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SeleniumTestNg@7c16905e]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-03-01T17:31:45Z" finished-at="2018-03-01T17:31:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testngnew@7c16905e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Testngnew@7c16905e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-03-07T16:36:10Z" finished-at="2018-03-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- SeleniumTestNg -->
+      </class> <!-- Testngnew -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

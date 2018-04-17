@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +20,7 @@ public class Amaze {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver","D:\\software\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\SoftWares\\chromedriver.exe");
 		
 		//WebDriver driver=new ChromeDriver();
 		
@@ -32,13 +33,12 @@ public class Amaze {
 		driver.navigate().to("https://www.amazon.in/");
 		
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//a[contains(@href,'/gp/goldbox/ref=nav_cs_gb')]")).click();
 		
+     driver.findElement(By.xpath(".//*[@id='twotabsearchtextbox']")).sendKeys("Mobiles");
+ 
+     driver.findElement(By.xpath(".//*[@id='nav-search']/form/div[2]/div/input")).click();
 		
-		// verify that the “check box” is enabled
-		
-			            
-		        Thread.sleep(9000);
+		Thread.sleep(9000);
 			              boolean searchIconEnabled = driver.findElement(By.xpath("(//input[contains(@type,'checkbox')])[4]")).isEnabled();
 		
 			 
