@@ -1,4 +1,10 @@
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +14,7 @@ import org.testng.annotations.Test;
 public class CheckboxAndRadiobtn {
 
 	@Test
-	public void BoxandRadio() {
+	public void BoxandRadio() throws IOException {
 		
 		System.setProperty("webdriver.chrome.driver","E:\\SoftWares\\chromedriver.exe");
 		  
@@ -33,6 +39,13 @@ public class CheckboxAndRadiobtn {
 		
 		driver.findElement(By.xpath("//a[contains(@class,'button lnk_view btn btn-default')]")).click();
 		action.doubleClick(driver.findElement(By.xpath("//a[contains(@class,'btn btn-default button-plus product_quantity_up')]"))).perform();
+		
+		TakesScreenshot ts=(TakesScreenshot)driver;
+		
+		File file=ts.getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(file,new File("E:\\screenshots.jpeg"));
+		
+		
 		
 	}
 	
