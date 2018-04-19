@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class CheckboxAndRadiobtn {
@@ -26,6 +27,12 @@ public class CheckboxAndRadiobtn {
 				option1.click();
 		}
 		
+		
+		Actions action=new Actions(driver);
+		action.moveToElement(driver.findElement(By.xpath("//img[@title='Faded Short Sleeve T-shirts']"))).build().perform();
+		
+		driver.findElement(By.xpath("//a[contains(@class,'button lnk_view btn btn-default')]")).click();
+		action.doubleClick(driver.findElement(By.xpath("//a[contains(@class,'btn btn-default button-plus product_quantity_up')]"))).perform();
 		
 	}
 	
