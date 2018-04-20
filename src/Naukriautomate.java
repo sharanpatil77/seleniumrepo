@@ -71,7 +71,7 @@ public class Naukriautomate {
 		driver.findElement(By.xpath("//input[contains(@name,'email')]")).sendKeys("sharan.patil71@gmail.com");
 		driver.findElement(By.xpath("//input[@id='pLogin']")).sendKeys("password@22");
 		driver.findElement(By.xpath("//button[@class='blueBtn']")).click();
-		Thread.sleep(6000);
+		Thread.sleep(4000);
 
         /*WebElement element = driver.findElement(By.xpath("(//span[contains(@class,'topIcon jobs')])[1]"));
             Actions action = new Actions(driver);
