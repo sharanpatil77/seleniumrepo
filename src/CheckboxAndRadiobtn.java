@@ -21,7 +21,9 @@ public class CheckboxAndRadiobtn {
 		  WebDriver driver=new ChromeDriver();
 		  driver.get("http://automationpractice.com/index.php");
 		  driver.findElement(By.xpath("(//a[@title='T-shirts'])[2]")).click();
-		WebElement option1=driver.findElement(By.xpath("//input[@id='layered_id_attribute_group_1']"));
+		
+		  
+		  WebElement option1=driver.findElement(By.xpath("//input[@id='layered_id_attribute_group_1']"));
 		
 		if(option1.isSelected()) {
 			System.out.println("CheckBox is Toggled ON");

@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26541" started-at="2018-03-15T05:32:28Z" finished-at="2018-03-15T05:32:55Z">
+  <suite name="Default suite" duration-ms="18070" started-at="2018-04-19T11:21:19Z" finished-at="2018-04-19T11:21:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26541" started-at="2018-03-15T05:32:28Z" finished-at="2018-03-15T05:32:55Z">
-      <class name="com.verifylogin.page.Verifylogin">
-        <test-method status="FAIL" signature="logintest()[pri:0, instance:com.verifylogin.page.Verifylogin@396a51ab]" name="logintest" duration-ms="26524" started-at="2018-03-15T11:02:28Z" finished-at="2018-03-15T11:02:55Z">
-          <exception class="java.lang.IllegalMonitorStateException">
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalMonitorStateException
-	at java.lang.Object.wait(Native Method)
-	at com.verifylogin.page.Verifylogin.logintest(Verifylogin.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalMonitorStateException -->
+    <test name="Default test" duration-ms="18070" started-at="2018-04-19T11:21:19Z" finished-at="2018-04-19T11:21:37Z">
+      <class name="CheckboxAndRadiobtn">
+        <test-method status="PASS" signature="BoxandRadio()[pri:0, instance:CheckboxAndRadiobtn@396a51ab]" name="BoxandRadio" duration-ms="18059" started-at="2018-04-19T16:51:19Z" finished-at="2018-04-19T16:51:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintest -->
-      </class> <!-- com.verifylogin.page.Verifylogin -->
+        </test-method> <!-- BoxandRadio -->
+      </class> <!-- CheckboxAndRadiobtn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

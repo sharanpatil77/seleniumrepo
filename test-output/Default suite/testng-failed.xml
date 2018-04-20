@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.verifylogin.page.Verifylogin">
+      <class name="CheckboxAndRadiobtn">
         <methods>
-          <include name="logintest"/>
+          <include name="BoxandRadio"/>
         </methods>
-      </class> <!-- com.verifylogin.page.Verifylogin -->
+      </class> <!-- CheckboxAndRadiobtn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
