@@ -20,7 +20,7 @@ public class Testngnew {
 	 
 	public void testCase1() {
 
-		System.out.println("This is the Test Case 1 A");
+		System.out.println("This is the Test Case1 JAGUAR");
 
 	}
 
@@ -28,7 +28,7 @@ public class Testngnew {
 
 	public void testCase2() {
 
-		System.out.println("This is the Test Case 2 B");
+		System.out.println("This is the Test Case2 PORSCHE");
 
 	}
 
@@ -36,7 +36,7 @@ public class Testngnew {
 
 	public void beforeMethod() {
 
-		System.out.println("This will execute before every Method  C ");
+		System.out.println("This will execute before every Method  BMW ");
 
 	}
 
@@ -44,7 +44,7 @@ public class Testngnew {
 
 	public void afterMethod() {
 
-		System.out.println("This will execute after every Method  D");
+		System.out.println("This will execute after every Method  BENTLY");
 
 	}
 
@@ -52,7 +52,7 @@ public class Testngnew {
 
 	public void beforeClass() {
 
-		System.out.println("This will execute before the Class  E ");
+		System.out.println("This will execute before the Class  RITZ ");
 
 	}
 
@@ -60,7 +60,7 @@ public class Testngnew {
 
 	public void afterClass() {
 
-		System.out.println("This will execute after the Class  F");
+		System.out.println("This will execute after the Class  BENZ");
 
 	}
 
@@ -68,7 +68,7 @@ public class Testngnew {
 
 	public void beforeTest() {
 
-		System.out.println("This will execute before the Test  G ");
+		System.out.println("This will execute before the Test  FORD ");
 
 	}
 
@@ -76,7 +76,7 @@ public class Testngnew {
 
 	public void afterTest() {
 
-		System.out.println("This will execute after the Test  H ");
+		System.out.println("This will execute after the Test  FERRARI ");
 
 	}
 
@@ -84,7 +84,7 @@ public class Testngnew {
 
 	public void beforeSuite() {
 
-		System.out.println("This will execute before the Test Suite  I ");
+		System.out.println("This will execute before the Test Suite  ASTON MARTIN ");
 
 	}
 
@@ -92,7 +92,7 @@ public class Testngnew {
 
 	public void afterSuite() {
 
-		System.out.println("This will execute after the Test Suite   J ");
+		System.out.println("This will execute after the Test Suite   NEXON ");
 
 	}
 	
