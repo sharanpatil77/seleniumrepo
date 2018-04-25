@@ -1,8 +1,10 @@
 import java.io.File;
 import java.io.IOException;
+import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -12,9 +14,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class CheckboxAndRadiobtn {
-
+ 
+	
 	@Test
-	public void BoxandRadio() throws IOException {
+	public void BoxandRadio() throws IOException, InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver","E:\\SoftWares\\chromedriver.exe");
 		  
@@ -38,9 +41,11 @@ public class CheckboxAndRadiobtn {
 		
 		Actions action=new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//img[@title='Faded Short Sleeve T-shirts']"))).build().perform();
-		
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[contains(@class,'button lnk_view btn btn-default')]")).click();
 		action.doubleClick(driver.findElement(By.xpath("//a[contains(@class,'btn btn-default button-plus product_quantity_up')]"))).perform();
+		
+		
 		
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		
